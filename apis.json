@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - BC Geographical Names",
+	"description": "This is a repository of bc geographical names APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/bc-geographical-names.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://bc-geographical-names.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "BC Geographical Names",
+			"x-api-slug": "bc-geographical-names",
+			"description": "Geographical names are more than labels on maps and road signs. They can reveal patterns of settlement, exploration and migration, and mirror outside influences to our history - aspects of the heritage and promise of an area that might otherwise be overlooked or forgotten by visitors and later generations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png",
+			"humanURL": "https://apps.gov.bc.ca/pub/bcgnws/",
+			"baseURL": "https://apps.gov.bc.ca//pub/geomark",
+			"tags": "BC Geographical Names",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bc-geographical-names/master/_listings/bc-geographical-names/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "BC Geographical Names",
+	"include": [
+		{
+			"name": "BC Geographical Names",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/bc-geographical-names/master/_listings/bc-geographical-names/apis.yaml"
+		}
+	]
+}
